@@ -150,8 +150,8 @@ This will: - Print the generated SQL\
 
 ## Final Results Summary
 
-| Question ID | Confidence | Status | Type | Notes |
-|-------------|------------|--------|------|-------|
+| Question ID | Confidence | Status | Type | 
+|-------------|------------|--------|------|
 | rag_policy_beverages_return_days | 0.7  | RAG | Pure document retrieval |
 | hybrid_top_category_qty_summer_1997 | 0.77  | Hybrid | SQL + document constraints |
 | hybrid_aov_winter_1997 | 1.0  | Hybrid | SQL + document constraints |
