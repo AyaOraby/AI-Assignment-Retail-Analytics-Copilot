@@ -148,6 +148,20 @@ This will: - Print the generated SQL\
 -   Automatic table schema inference\
 -   Advanced SQL repair using AST rewriting
 
+## Final Results Summary
+
+| Question ID | Confidence | Status | Type | Notes |
+|-------------|------------|--------|------|-------|
+| rag_policy_beverages_return_days | 0.7  | RAG | Pure document retrieval |
+| hybrid_top_category_qty_summer_1997 | 0.77  | Hybrid | SQL + document constraints |
+| hybrid_aov_winter_1997 | 1.0  | Hybrid | SQL + document constraints |
+| sql_top3_products_by_revenue_alltime | 0.9  | SQL | Pure database query |
+| hybrid_revenue_beverages_summer_1997 | 1.0  | Hybrid | SQL + document constraints |
+| hybrid_best_customer_margin_1997 | 1.0  | Hybrid | SQL + document constraints |
+
+**Success Rate: 6/6 (100%)**  
+**Average Confidence: 0.895**
+
 ## License
 
 MIT License
