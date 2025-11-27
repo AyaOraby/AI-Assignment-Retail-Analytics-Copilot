@@ -42,7 +42,6 @@ This project implements a Retail Analytics Copilot that answers complex business
 - **✅ Format Validation**: Ensures output matches required format hints
 - **📅 Date Adaptation**: Maps requested 1997 dates to actual 2022 database data
 
-## 📁 Project Structure
 
 
 ## 📁 Project Structure
@@ -70,4 +69,5 @@ retail_copilot/
 # Run the retail analytics agent
 python run_agent_hybrid_final.py \
   --batch sample_questions_hybrid_eval.jsonl \
+
   --out outputs_hybrid.jsonl
